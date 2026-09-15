@@ -1,0 +1,32 @@
+h1, h2 {
+    color: crimson;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.pi{
+    text-align: center;
+}
+
+p {
+    line-height:1.5;
+     font-style: italic;
+}
+
+header p {
+    color: aqua;
+}
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px;
+    border: 2px double black;
+    margin: 5px 15px 30px 60px;
+}
+
+a:hover{
+    color:crimson
+}

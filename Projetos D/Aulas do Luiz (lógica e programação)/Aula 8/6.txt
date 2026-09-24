@@ -1,0 +1,5 @@
+//A
+let cidade = "Caraguatatuba";
+let estado = "SP";
+
+document.writeln(`${cidade}  (${estado})`)

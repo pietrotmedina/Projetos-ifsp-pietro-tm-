@@ -1,0 +1,22 @@
+//A
+let nomeCompleto = "Pietro Tommaso Medina";
+
+console.log(nomeCompleto[0]);
+
+//B
+let nomeCompleto = "Pietro Tommaso Medina";
+
+console.log(nomeCompleto[nomeCompleto.length - 1]);
+
+//C
+let nomeCompleto = "Pietro Tommaso Medina"
+console.log(nomeCompleto.length)
+nomeCompleto.replaceAll(" ","").length
+
+//D
+let nomeCompleto = "Pietro Tommaso Medina"
+onsole.log(nome.toUpperCase())
+
+//E
+let nomeCompleto = "Pietro Tommaso Medina"
+console.log(nome.includes("a"))

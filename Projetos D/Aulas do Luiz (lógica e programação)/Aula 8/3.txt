@@ -1,0 +1,13 @@
+//A
+alert("Pietro");
+
+//B
+console.log("Marina");
+
+//C
+document.writeln("Raul");
+
+//D
+O alert() exibe uma caixa de mensagem no centro da tela que paralisa a navegação até o usuário clicar em "OK", sendo usado para avisos diretos ao usuário.
+O console.log() envia dados apenas para o console oculto do desenvolvedor (F12), sendo a principal ferramenta para testar o código e identificar erros sem afetar a visualização do site.
+O document.writeln() escreve o texto diretamente no corpo da página HTML junto com uma quebra de linha, mas caiu em desuso porque apaga todo o conteúdo do site se for executado após o carregamento da página.

@@ -1,0 +1,20 @@
+//A
+let nomeProduto = "Notebook";
+
+//B
+let precoProduto = 29;
+
+//C
+let pagamentoRealizado = true;
+
+//D
+const PI = 3.14159;
+
+//E
+precoProduto = 29.29;
+console.log(precoProduto);
+
+//F
+const PI = 3.14159;
+PI = 3.14; // Erro!
+O const declara um identificador com valor fixo e imutável após a criação. Diferente de let e var, ele impede a reatribuição de valores para proteger dados que não podem mudar.

@@ -1,0 +1,24 @@
+a:hover {
+    color: red;
+}
+
+section {
+    margin: 50px 50px 50px 50px;
+    padding: 50px;
+    background-color: var(--cor-2                             );
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-1);
+    color: var(--cor-7)
+}
+:root {
+    --cor-1:#FDF2F4;
+    --cor-2:#FAC9D3;
+    --cor-3:#F45D7B;
+    --cor-4:#E5244A;
+    --cor-5:#A31D36;
+    --cor-6:#631825;
+    --cor-7:#270C11;
+}

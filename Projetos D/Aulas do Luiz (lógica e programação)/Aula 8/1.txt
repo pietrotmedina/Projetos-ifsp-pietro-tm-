@@ -1,0 +1,13 @@
+// exemplo de String
+três sabores de sorvete aleatórios
+
+// exemplo de Number
+nota do aluno
+quantidade de pessoas por sala
+área de uma figura geométrica
+
+// exemplo de Boolean
+5 == 4 False
+Estojo está aberto?
+matricula feita com sucesso?
+

@@ -1,0 +1,7 @@
+//A
+let nome = "Pietro";
+let sobrenome = "Tommaso Medina";
+
+let nomeCompleto = nome + " " + sobrenome;
+
+console.log(nomeCompleto);

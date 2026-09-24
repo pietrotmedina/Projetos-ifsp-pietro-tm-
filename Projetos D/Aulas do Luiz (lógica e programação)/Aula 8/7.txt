@@ -1,0 +1,20 @@
+//A
+let ddi = "29";
+let ddd = "29";
+let numero = "29292-2929";
+
+let telefoneConcatenado = "+" + ddi + " (" + ddd + ") " + numero;
+
+console.log(telefoneConcatenado);
+
+
+let ddi = "29";
+let ddd = "29";
+let numero = "29292-2929";
+
+let telefoneInterpolado = `+${ddi} (${ddd}) ${numero}`;
+
+console.log(telefoneInterpolado);
+
+
+A interpolação é mais legível porque evita a poluição de aspas e operadores de adição (+), permitindo escrever o texto na sua forma final com as variáveis diretamente dentro de ${}.

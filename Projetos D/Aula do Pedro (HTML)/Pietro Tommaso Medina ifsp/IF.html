@@ -1,96 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Portal institucional</title>
-        <link rel="style" href="CSS/style.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Institucional</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
 <body>
-            <header>
-                <nav>
-        <h1>
-            Instituto de Tecnologia
-        </h1>
-    <p>
-        Educação, tecnologia e inovação.
-    </p>
-    <a href="#">Início </a>
-    <a href="#">Instituição </a>
-    <a href="#">Cursos </a>
-    <a href="#">Notícias </a>
-    <a href="#">Contato</a>
-    <figure>
-         <img src="img/ifsp.png" alt="Logo IFSP" width="200" title="Logo IFSP">
-          <figcaption>
-            <p>
-                Campus do Instituto de Tecnologia.
-            </p>
+    <header id="cabecalho">
+        <h1>Instituto de Tecnologia</h1>
+        <p>Educação, tecnologia e inovação.</p>
+        
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="#">Instituição</a>
+            <a href="cursos.html">Cursos</a>
+            <a href="noticias.html">Notícias</a>
+            <a href="#">Contato</a>
         </nav>
-          </figcaption>
-    </figure>
     </header>
     <main>
-        <section>
-            <h2>
-                Últimas notícias
-            </h2>
-            <figcaption>
-                <h3>
-                    Novos cursos de tecnologia
-                </h3>
-                <p>
-                    A instituição ampliou sua oferta de cursos relacionados à área de tecnologia.
-                </p>
-                <a href="#">Ler mais</a>
-                <h3>
-                    Semana de tecnologia
-                </h3>
-                <p>
-                    Estudantes participarão de atividades, palestras e oficinas durante a semana.
-                </p>
-                <a href="?">Leia mais</a>
-                <h3>
-                    Projetos desenvolvidos pelos estudantes
-                </h3>
-                <p>
-                    Alunos estão desenvolvendo projetos utilizando diferentes tecnologias.
-                </p>
-                <a href="?">Ler mais</a>
-            </figcaption>
+        <section class="section">
+            <h2>Sobre a instituição</h2>
+            <p>O Instituto de Tecnologia oferece formação voltada ao desenvolvimento profissional e tecnológico.</p>
+            <figure>
+                <img src="img/ifsp.png" alt="Logo da instituição">
+                <figcaption>Campus do Instituto de Tecnologia.</figcaption>
+            </figure>
         </section>
-        <aside>
-            <h2>
-                Informações
-            </h2>
-            <p>
-                Consulte nossos cursos e conheça as oportunidades oferecidas.
-            </p>
-            <a href="?">Ver cursos</a>
+        <section>
+            <h2>Últimas notícias</h2>
+            <article>
+                <h3>Novos cursos de tecnologia</h3>
+                <p>A instituição ampliou sua oferta de cursos relacionados à área de tecnologia.</p>
+                <a href="#">Leia mais</a>
+            </article>
+            <article>
+                <h3>Semana de tecnologia</h3>
+                <p>Estudantes participarão de atividades, palestras e oficinas durante a semana.</p>
+                <a href="#">Leia mais</a>
+            </article>
+            <article>
+                <h3>Projetos desenvolvidos pelos estudantes</h3>
+                <p>Alunos estão desenvolvendo projetos utilizando diferentes tecnologias.</p>
+                <a href="#">Leia mais</a>
+            </article>
+        </section>
+        <aside id="informacoes">
+            <h2>Informações</h2>
+            <p>Consulte nossos cursos e conheça as oportunidades oferecidas.</p>
+            <a href="cursos.html">Ver cursos</a>
         </aside>
-        <section>
-        <h2>
-            <i>
-                Contato
-        </h2>
-        <p>
-            Instituto de Tecnologia
-        </p>
-        <p>
-            Avenida da Tecnologia, 100
-        </p>
-        <p>
-            São Paulo — SP
-        </p>
-        <p>
-            E-mail: <a href="contato@instituto.edu.br">contato@instituto.edu.br</a>
-            </i>
-        </p>
-        </section>
+        <address>
+            <h2>Contato</h2>
+            <p>Instituto de Tecnologia</p>
+            <p>Avenida da Tecnologia, 100</p>
+            <p>São Paulo — SP</p>
+            <p>E-mail: <a href="mailto:contato@instituto.edu.br">contato@instituto.edu.br</a></p>
+        </address>
+    </main>
     <footer>
-    <p>
-        © 2026 Instituto de Tecnologia. Todos os direitos reservados.
-    </p>
-        </footer>
-        </main>
+        <p>&copy; 2026 Instituto de Tecnologia. Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>

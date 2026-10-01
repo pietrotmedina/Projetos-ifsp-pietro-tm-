@@ -1,4 +1,4 @@
-Nota1 = int
-Nota2 = int
+nota1 = int
+nota2 = int
 print("Qual foi a sua primeira nota? ")
-input(Nota1)
+input(nota1)

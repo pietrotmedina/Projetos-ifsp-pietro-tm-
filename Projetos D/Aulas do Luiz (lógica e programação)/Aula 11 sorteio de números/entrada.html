@@ -1,0 +1,34 @@
+<meta charset="utf-8" />
+<script>
+
+    console.log("Números aleatórios...")
+    console.log(Math.random())
+    
+    let sorteio = Math.random()
+    console.log(`O número sorteado foi: ${sorteio}`)
+    
+    //0 até 9.9999...
+    console.log(sorteio * 10)
+    
+    //arredondando
+    console.log(Math.floor(sorteio)) // para baixo
+    console.log(Math.ceil(sorteio)) //para cima
+    console.log(Math.round(sorteio)) //para o número mais próximo
+
+    //sortear um número inteiro entre 0 e 2
+    console.log(Math.floor(Math.random() * 11)) //sempre sorteia 1 a baixo quando é arredondado para baixo
+    // sortear um d6 (1, 2, 3, 4, 5, 6)
+     console.log("d6", Math.ceil(Math.random() * 6)) //sempre sorteia 1 a baixo quando é arredondado para baixo
+     //sortear 1d20
+     console.log("d20", Math.ceil(Math.random() * 20))
+
+     //intervalo qualquer
+     let min = 21
+     let max = 29
+     sorteio = Math.floor(Math.random() * (max - min + 1) + min)
+     console.log("Sorteio: ", sorteio)
+
+     let numero = Math.rondom() * 10
+     console.log(numero.toFixed(2))
+
+    </script>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Institucional</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <h1>Instituto de Tecnologia</h1>
+        <p>Educação, tecnologia e inovação.</p>
+        
+        <nav>
+            <a href="IF.html">Início</a>
+            <a href="#">Instituição</a>
+            <a href="cursos.html">Cursos</a>
+            <a href="noticias.html">Notícias</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <section>
+            <h2>Contato</h2>
+            <form>
+                <fieldset>
+                    <legend>Dados Pessoais</legend> 
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome"><br>
+                    <label for="nome">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="aluno@aluno.com.br" required>
+                    <br>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" minlength="8" maxlength="10"
+                        placeholder="Minimo 8 caracters" title="Regras: Min 8 e maximo 10">
+                    <br>
+                    <label for="idade">Idade: </label><input type="number" id="idade" name="idade" min="0" max="120"
+                        step="1">
+                    <br>
+                    <label for="data">Data de nascimento:</label>
+                    <input type="date" id="data" name="data"><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Informações sobre o curso</legend> 
+                    <label for="site">Onde nos conheceu?</label>
+                    <input type="url" id="site" name="site">
+                    <br>
+                    <br>
+                    <label for="ling">Que linguagem você pretende estudar?</label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="cursos" value="html">
+                        HTML
+                    </label>
+                    <label>
+                        <input type="checkbox" name="cursos" value="css">
+                        CSS
+                    </label>
+                    <label>
+                        <input type="checkbox" name="cursos" value="javascript">
+                        JavaScript
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        <label for="hora">Em que horário você estaria disponivel</label>
+                        <br>
+                        <input type="radio" name="turno" value="manha" required>
+                        Manhã
+                    </label>
+                    <label>
+                        <input type="radio" name="turno" value="tarde">
+                        Tarde
+                    </label>
+                    <br>
+                </fieldset>
+                <br>
+                <address>
+                    <label>Anexe seu arquivo sobre você:</label><br />
+                <input type="file" id="arquivo" name="arquivo">
+                <br>
+                <label for="mensagem">
+                    Deixe uma mensagem:
+                </label><br>
+                <textarea id="mensagem" name="mensagem" rows="10" cols="40"></textarea>
+
+                <br>
+                <label for="estado">
+                    Estado:
+                </label>
+                <select id="estado" name="estado">
+                    <option value="sp">
+                        São Paulo
+                    </option>
+                    <option value="rj">
+                        Rio de Janeiro
+                    </option>
+                    <option value="mg">
+                        Minas Gerais
+                    </option>
+                    <option value="am">
+                        Amazonas
+                    </option>
+                    <option value="ac">
+                        Acre
+                    </option>
+                    <option value="ap">
+                        Amapá
+                    </option>
+                    <option value="pa">
+                        Pará
+                    </option>
+                    <option value="ro">
+                        Rondônia
+                    </option>
+                    <option value="to">
+                        Tocantins
+                    </option>
+                    <option value="rr">
+                        Roraima
+                    </option>
+                    <option value="Internacional">
+                        Internacional
+                    </option>
+                </select>
+
+                <br>
+                <button type="submit">
+                    Enviar
+                </button>
+                <button type="reset">
+                    Limpar
+                </button>
+                <button type="button" id="inserirTextos">
+                    Importar
+                </button>
+
+            </form>
+
+
+        </section>
+                </address>
+                

@@ -1,0 +1,109 @@
+a:hover {
+    color: red;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-1);
+    color: var(--cor-5)
+}
+:root {
+    --cor-1:#F8F4FB;
+    --cor-2:#D1AFEE;
+    --cor-3:#861FDB;
+    --cor-4:#541F7F;
+    --cor-5:#1B0E25;
+}
+
+header {
+    padding: 30px;
+    background-color: var(--cor-5);
+    color: var(--cor-1);
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: var(--cor-3)
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+section {
+    margin: 20px 20px 20px 20px;
+    padding: 50px;
+    background-color: var(--cor-2);
+    border-radius: 29px;
+}
+
+h3 {
+    color:var(--cor-5)
+}
+
+article {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 5px #A31D36 solid var(--cor-3);
+}
+
+figure {
+    margin: 20px 0;
+    text-align: var(--cor-2);
+}
+
+figure img {
+    max-width: 100%;
+}
+
+aside {
+    text-aling: center;
+    background-color: var(--cor-2);
+    margin-bottom: 40px;
+    padding: 24px;
+    border-radius: 69px;
+}
+
+address {
+    margin: 40px 0;
+    padding: 25px;
+    border-top: 4px solid var(--cor-2);
+    border-bottom: 4px solid var(--cor-2);
+    background-color: var(--cor-5);
+    color: var(--cor-1);
+    border-radius: 29px;
+}
+
+#variacao {
+    margin: 40px 0;
+    padding: 25px;
+    border-top: 4px solid var(--cor-2);
+    border-bottom: 4px solid var(--cor-2);
+    background-color: var(--cor-4);
+    color: var(--cor-1);
+    border-radius: 60px;
+}
+
+.card {
+    display: inline-block;
+    margin: 0 10px;
+    min-width: 190px;
+    max-width: 300px;
+    min-height: 342px;
+    padding: 20px;
+    border: 2px solid var(--cor-4);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.15);
+}

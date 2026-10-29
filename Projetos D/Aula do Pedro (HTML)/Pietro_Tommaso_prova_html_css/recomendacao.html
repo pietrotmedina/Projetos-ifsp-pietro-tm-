@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça sua recomendação</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <h1>Bibiotecla online</h1>
+        <p>Gerenciamento online da biblioteca.</p>
+        
+        <nav>
+            <a href="inicio.html">Início</a>
+            <a href="inscricao.html">Inscrição</a>
+            <a href="catalogo.html">Catagolo de livros</a>
+        </nav>
+    </header>
+
+    <section>
+            <h2>Coloque seu cadastro</h2>
+            <form>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="nome">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="aluno@aluno.com.br" required>
+                    <br>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" minlength="8" maxlength="10"
+                        placeholder="Minimo 8 caracters" title="Regras: Min 8 e maximo 10">
+                </fieldset>
+                <br>
+                <address id="variacao">
+                    <label for="nome">Coloque o nome do livro:</label>
+                    <input>
+                    <br>
+                    <label for="nome">Coloque o nome do autor:</label>
+                    <input>
+                    <br>
+                <label for="mensagem">
+                    Deixe uma descrição sobre o livro doado:
+                </label>
+                <br>
+                <textarea id="mensagem" name="mensagem" rows="10" cols="40"></textarea>
+
+                <br>
+                <label for="cidade">
+                    Sua cidade:
+                </label>
+                <select id="cidade" name="cidade">
+                    <option value="sp">
+                        São Paulo
+                    </option>
+                    <option value="ct">
+                        Caraguatatuba
+                    </option>
+                    <option value="ss">
+                        São Sebastião
+                    </option>
+                    <option value="u">
+                        Ubatuba
+                    </option>
+                    <option value="a">
+                        Atibaia
+                    </option>
+                    <option value="p">
+                        Pirassununga
+                    </option>
+                    <option value="sjc">
+                        São José dos Campos
+                    </option>
+                    <option value="c">
+                        Campinas
+                    </option>
+                    <option value="cj">
+                        Campos do Jordão
+                    </option>
+                </select>
+
+                <br>
+                <button type="submit">
+                    Enviar
+                </button>
+                <button type="reset">
+                    Limpar
+                </button>
+                <button type="button" id="inserirTextos">
+                    Importar
+                </button>
+
+            </form>
+
+
+        </section>
+                </address>

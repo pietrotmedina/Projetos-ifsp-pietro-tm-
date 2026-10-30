@@ -98,3 +98,13 @@ address {
     text-align: center;
     border-radius: 50px;
 }
+
+.container {
+    display: flex;
+}
+
+.item {
+    padding: 20px;
+    border: 20px;
+    background-color: #270C11;
+}

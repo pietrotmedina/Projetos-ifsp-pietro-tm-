@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Institucional</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <h1>Bibiotecla online</h1>
+        <p>Gerenciamento online da biblioteca.</p>
+
+        <nav>
+            <a href="inicio.html">Início</a>
+            <a href="inscricao.html">Inscrição</a>
+            <a href="catalogo.html">Catagolo de livros</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Contato</h2>
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"><br>
+                <label for="nome">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="aluno@aluno.com.br" required>
+                <br>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" minlength="8" maxlength="10"
+                    placeholder="Minimo 8 caracters" title="Regras: Min 8 e maximo 10">
+                <br>
+                <label for="idade">Idade: </label><input type="number" id="idade" name="idade" min="0" max="120"
+                    step="1">
+                <br>
+                <label for="data">Data de nascimento:</label>
+                <input type="date" id="data" name="data"><br>
+            </fieldset>
+            <p>
+                <button type="button" id="inserirTextos">
+                    Confirmar
+                </button>
+            </p>
+
+
+        </form>
+
+
+    </section>
+    </address>

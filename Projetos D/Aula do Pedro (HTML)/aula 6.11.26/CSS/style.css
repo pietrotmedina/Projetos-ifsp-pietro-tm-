@@ -1,0 +1,275 @@
+
+/* PALETA DE CORES */
+
+:root {
+    --cor-1: #FDF2F4;
+    --cor-2: #FAC9D3;
+    --cor-3: #F45D7B;
+    --cor-4: #E5244A;
+    --cor-5: #A31D36;
+    --cor-6: #631825;
+    --cor-7: #270C11;
+}
+
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-1);
+    color: var(--cor-7);
+}
+
+
+/* CABEÇALHO */
+
+header {
+    background-color: var(--cor-6);
+    color: var(--cor-1);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px;
+}
+
+
+/* LOGO DO CABEÇALHO */
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.logo h1 {
+    font-size: 28px;
+    color: var(--cor-1);
+}
+
+
+/* MENU */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: var(--cor-1);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: var(--cor-2);
+}
+
+
+/* APRESENTAÇÃO */
+
+.apresentacao {
+    background-color: var(--cor-3);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+/* CONTAINER */
+
+.container {
+    display: flex;
+    min-height: 200px;
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+    border: 2px solid var(--cor-5);
+    margin: 10px;
+    padding: 15px;
+
+    gap: 20px;
+}
+
+
+/* ITEM */
+
+.item {
+    padding: 20px;
+    border: 1px solid var(--cor-2);
+
+    background-color: white;
+
+    flex: 1 1 220px;
+    max-width: 280px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 15px;
+
+    text-align: center;
+    border-radius: 10px;
+}
+
+.item h3 {
+    color: var(--cor-6);
+}
+
+
+/* CAIXA */
+
+.caixa {
+    padding: 30px;
+    border: 1px solid var(--cor-2);
+
+    flex-grow: 1;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+
+    text-align: center;
+}
+
+
+/* PREÇOS */
+
+.item span {
+    color: var(--cor-5);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* BOTÕES */
+
+.item button {
+    background-color: var(--cor-4);
+    color: white;
+
+    padding: 12px 25px;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.item button:hover {
+    background-color: var(--cor-5);
+}
+
+
+/* TÍTULOS */
+
+main h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: var(--cor-6);
+}
+
+
+/* SEÇÕES */
+
+#produtos {
+    padding: 30px 20px;
+}
+
+#instituicao {
+    padding: 30px;
+}
+
+#ofertas {
+    background-color: var(--cor-2);
+    padding: 40px;
+    text-align: center;
+}
+
+#noticias {
+    padding: 40px;
+    text-align: center;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: var(--cor-7);
+    color: var(--cor-1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 25px;
+    text-align: center;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container {
+        min-height: 200px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .caixa {
+        width: 100%;
+    }
+
+}

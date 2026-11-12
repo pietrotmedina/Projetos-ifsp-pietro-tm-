@@ -1,0 +1,17 @@
+<title>Exemplo 4 - Caixa de Supermercado</title>
+<meta charset="utf-8" />
+
+<script>
+    let total = 0 //acumulador
+    let preco = Number(prompt("Informe o preço do produto"))
+    tecla = "s"
+
+    while (tecla != "s") {
+        total = total + preco //outra forma de escrever: total += preco
+        preco = Number(prompt("Informe o preço do prooduto ou 0 para finalizar"))
+
+        tecla = prompt("Deseja continuar? (s)")
+    }
+
+    alert(`Total da compra = R$ ${total.toFixed(2)}`)
+</script>

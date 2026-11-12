@@ -1,0 +1,13 @@
+<meta charset="utf-8" />
+<script>
+    //validação de uma nota
+    let nota = Number(prompt("Informe uma nota entre 0 e 10..."))
+
+    // while = enquanto
+    while (nota < 0 || nota > 10) {
+        alert("Nota inválida.")
+        nota = Number(prompt("Informe uma nota entre 0 e 10..."))
+    }
+
+    alert("Nota válida: " + nota)
+</script>

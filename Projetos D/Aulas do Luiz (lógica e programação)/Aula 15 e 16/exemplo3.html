@@ -1,0 +1,20 @@
+<title>Exemplo 3 - Login</title>
+<meta charset="utf-8" />
+
+<script>
+    // o usuário vai digitar:
+    let senha = prompt("Digite a sua senha")
+    let email = prompt("Digite o seu email")
+
+    // vai comparar com estes dados:
+    const senhavalida = "12345"
+    const emailvalido = "pietrotommaso@aluno.ifsp.edu.br"
+
+    while (senha != senhavalida || email != emailvalido) {
+        alert("Email ou senha inválidos!")
+        email = prompt("Informe o e-mail novamente")
+        senha = prompt("Informe a senha novamente...")
+    }
+
+    alert("Login realizado com sucesso...")
+</script>

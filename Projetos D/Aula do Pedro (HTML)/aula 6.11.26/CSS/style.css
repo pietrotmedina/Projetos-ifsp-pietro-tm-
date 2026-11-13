@@ -147,6 +147,18 @@ nav a:hover {
     color: var(--cor-6);
 }
 
+/* IMAGENS DOS PRODUTOS */
+
+.item img {
+    width: 100%;
+    height: 180px;
+
+    object-fit: contain;
+
+    display: block;
+    margin: 0 auto;
+}
+
 
 /* CAIXA */
 

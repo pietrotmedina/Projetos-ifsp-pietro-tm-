@@ -1,0 +1,16 @@
+<title>Exercicio 11 - Maior número</title>
+<meta charset="utf-8" />
+
+<script>
+    let maior = Number(prompt("Número 1: "));
+
+    for (let i = 2; i <= 5; i++) {
+        let numero = Number(prompt("Número " + i + ": "));
+
+        if (numero > maior) {
+            maior = numero;
+        }
+    }
+
+    document.write("Maior: " + maior);
+</script>

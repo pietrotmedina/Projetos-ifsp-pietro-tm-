@@ -1,0 +1,16 @@
+<title>Exercicio 14 - Sequência de Fibonacci</title>
+<meta charset="utf-8" />
+
+<script>
+    let primeiro = 0;
+    let segundo = 1;
+
+    for (let i = 1; i <= 10; i++) {
+        document.write(primeiro + " ");
+
+        let proximo = primeiro + segundo;
+
+        primeiro = segundo;
+        segundo = proximo;
+    }
+</script>

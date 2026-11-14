@@ -1,0 +1,17 @@
+<title>Exercicio 15 - Grãos no tabuleiro</title>
+<meta charset="utf-8" />
+
+<script>
+    let casas = Number(prompt("Quantidade de casas: "));
+    let graos = 1;
+    let total = 0;
+
+    for (let i = 1; i <= casas; i++) {
+        document.write("Casa " + i + ": " + graos + " grão(s)<br>");
+
+        total = total + graos;
+        graos = graos * 2;
+    }
+
+    document.write("Total: " + total + " grãos");
+</script>

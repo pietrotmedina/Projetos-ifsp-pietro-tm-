@@ -1,0 +1,18 @@
+<title>Exercicio 12 - Menor número sorteado</title>
+<meta charset="utf-8" />
+
+<script>
+    let menor = 100;
+
+    for (let i = 1; i <= 5; i++) {
+        let numero = Math.floor(Math.random() * 100) + 1;
+
+        document.write("Sorteado: " + numero + "<br>");
+
+        if (numero < menor) {
+            menor = numero;
+        }
+    }
+
+    document.write("Menor: " + menor);
+</script>
